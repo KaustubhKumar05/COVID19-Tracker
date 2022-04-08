@@ -5,12 +5,14 @@ Live demo: https://react-covid19-tracker-project.netlify.app/
 
 ## Tech used
 API : http://api.covid19api.com/ \
+Firebase \
 React \
 MaterialUI icons \
 Chartjs \
 React countup animation library
 
 ## Features:
+Authentication with Firebase \
 Global and country wise data available \
 Statistics for a specific period of time can be viewed \
 Responsive UI
