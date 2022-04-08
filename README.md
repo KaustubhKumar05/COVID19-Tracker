@@ -19,7 +19,8 @@ Responsive UI
 
 ## Known issues
 The API returns 0 for global recovery count
-
+Some libraries are not fully compatible with React 18, force install is required. \
+npm i <library-name> --force
 # Installation guide:
 
 ## Available Scripts
