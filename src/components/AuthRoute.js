@@ -19,7 +19,7 @@ const AuthRoute = ({ children }) => {
 		AuthCheck()
 
 		return () => AuthCheck();
-	}, [auth]);
+	}, [auth, navigate]);
 
 	if (loading) return <p>loading ...</p>;
 
