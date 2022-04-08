@@ -4,7 +4,7 @@ import countries from "../assets/countries";
 import { ExitToAppIcon } from "../assets/icons.js";
 import { useNavigate } from "react-router-dom";
 import { getAuth, signOut } from "firebase/auth";
-const auth = getAuth();
+
 
 
 const Search = ({
@@ -15,6 +15,7 @@ const Search = ({
 	setToDate,
 	toDate,
 }) => {
+	const auth = getAuth();
 	const [country, setCountry] = useState("0");
 	const val = yesterday();
 
