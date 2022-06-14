@@ -279,6 +279,7 @@ a{
     border: 2px solid var(--dark);
     color: var(--light);
     outline: none;
+    cursor: pointer;
     border-radius: 5px;
 }
 
